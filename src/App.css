@@ -1,5 +1,32 @@
 nav{
     display: flex;
     align-items: center;
+    padding: 1.8rem 2rem;
+    border-top: 3px solid #4b244b;
+}
+
+nav a{
     text-decoration: none;
+    margin-right:1rem;
+    color: black;
+    font-size: 1.4rem;
+}
+
+nav a:hover{
+    cursor: pointer;
+}
+
+
+.slack{
+    display: flex;
+    align-items: center;
+}
+
+.slack a{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.spacer{
+    flex-grow: 2;
 }
